@@ -10,6 +10,8 @@
     ~/.zshrc: zsh/zshrc
     ~/.p10k.zsh: zsh/p10k.zsh
     ~/.vimrc: vimrc
+    ~/.tmux.conf: tmux.conf
+    ~/.pip_path.zsh: zsh/pip_path.zsh
     ~/.vim/bundle/vim-colors-solarized: vim-colors-solarized
     ~/.dir_colors: dircolors-solarized/dircolors.256dark 
     ~/.local/share/mc/skins/solarized.ini: mc-solarized-skin/solarized.ini
@@ -19,3 +21,4 @@
   - [sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" || echo, Install zsh]
   - [~/.dotfiles/install_zsh_plugins.sh || echo, Installing zsh theme PowerLevel10k]
   - [~/.dotfiles/install_vim_pathogen.sh || echo, Installing pathogen]
+  - [~/.dotfiles/install_powerline.sh || echo, Installing powerline]

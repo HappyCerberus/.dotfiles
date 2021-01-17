@@ -19,7 +19,11 @@ Picked `zsh` because of boostrap possibilities from `oh-my-zsh`.
 
 ## TODO
 
-For my .dotfiles repo
-
 - install script
-  - install oh-my-zsh if present
+  - set the default editor
+
+## Bugs / Problems
+
+- zsh history is not updated, even though it is incrementally stored
+  - re-running history will actually update it
+

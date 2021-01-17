@@ -21,6 +21,7 @@ Picked `zsh` because of boostrap possibilities from `oh-my-zsh`.
 
 - install script
   - set the default editor
+- store terminal settings in the dotfiles???
 
 ## Bugs / Problems
 

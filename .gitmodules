@@ -6,3 +6,6 @@
 	path = dircolors-solarized
 	url = https://github.com/seebi/dircolors-solarized
 	ignore = dirty
+[submodule "mc-solarized-skin"]
+	path = mc-solarized-skin
+	url = https://github.com/denius/mc-solarized-skin

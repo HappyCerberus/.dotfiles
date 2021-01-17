@@ -1,0 +1,5 @@
+[credential "https://github.com"]
+	helper = !gh auth git-credential
+[user]
+	email = happy.cerberus@gmail.com
+	name = RNDr. Šimon Tóth

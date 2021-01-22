@@ -2,13 +2,33 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
-[submodule "dircolors-solarized"]
-	path = dircolors-solarized
-	url = https://github.com/seebi/dircolors-solarized
-	ignore = dirty
 [submodule "mc-solarized-skin"]
 	path = mc-solarized-skin
 	url = https://github.com/denius/mc-solarized-skin
-[submodule "vim-colors-solarized"]
-	path = vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized
+[submodule "vim/bundle/nord-vim"]
+	path = vim/bundle/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim
+[submodule "themes/nord/nord-dircolors"]
+	path = themes/nord/nord-dircolors
+	url = https://github.com/arcticicestudio/nord-dircolors
+[submodule "themes/nord/nord-xresources"]
+	path = themes/nord/nord-xresources
+	url = https://github.com/arcticicestudio/nord-xresources
+[submodule "themes/nord/nord-tmux"]
+	path = themes/nord/nord-tmux
+	url = https://github.com/arcticicestudio/nord-tmux
+[submodule "themes/nord/nord-xfce-terminal"]
+	path = themes/nord/nord-xfce-terminal
+	url = https://github.com/arcticicestudio/nord-xfce-terminal
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
+[submodule "oh-my-zsh/custom/plugins/zsh-syntax-highlighting"]
+	path = oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "oh-my-zsh/custom/plugins/zsh-autosuggestions"]
+	path = oh-my-zsh/custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "oh-my-zsh/custom/themes/powerlevel10k"]
+	path = oh-my-zsh/custom/themes/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git

@@ -3,6 +3,6 @@ syntax on
 filetype plugin indent on
 
 set background=dark
-colorscheme solarized
+colorscheme nord
 
 let g:solarized_termcolors=256

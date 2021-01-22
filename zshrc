@@ -9,16 +9,14 @@ fi
 export HISTFILESIZE=1000000000
 export HISTSIZE=1000000000
 
-
 ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd completion)
 ZSH_THEME="powerlevel10k/powerlevel10k"
-
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/simon/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -107,3 +105,5 @@ source ~/.pip_path.zsh
 # Solarized theme
 eval `dircolors ~/.dir_colors`
 export MC_SKIN=solarized
+export PIP_PATH=`pip show powerline-status | grep Location | cut -d\  -f2`
+
